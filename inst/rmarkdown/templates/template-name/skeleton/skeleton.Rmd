@@ -7,7 +7,7 @@ author:
 # date: "`r format(Sys.time(), '%d %B %Y')`" ## Or "Lecture no."
 output: 
   html_document:
-    theme: readable
+    theme: united
     highlight: haddock
     # code_folding: show
     toc: yes
@@ -30,7 +30,7 @@ always_allow_html: true
 urlcolor: blue
 mainfont: Minion Pro
 sansfont: Myriad Pro
-monofont: Pragmata Pro
+monofont: PragmataPro
 ---
 
 ```{r setup, include=FALSE}
