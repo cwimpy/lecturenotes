@@ -1,11 +1,11 @@
-Package: lecturenotes-cw
+Package: lecturenotes
 Type: Package
 Title: Lecture Notes Package
 Version: 0.1.0
 Authors@R: 
     person(given = "Cameron",
            family = "Wimpy",
-           role = c("adp", "aut"),
+           role = c("aut", "adp"),
            email = "cwimpy@astate.edu",
            comment = c(ORCID = "0000-0002-2049-5229"))
 Description: This is a modified version of the original package: Template for exporting to both HTML and PDF formats. Takes care of 
