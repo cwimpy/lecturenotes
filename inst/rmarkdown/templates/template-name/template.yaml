@@ -1,4 +1,4 @@
-name: Lecture Notes CW
+name: Lecture Notes
 description: >
    My adapted R Markdown lecture notes setup, designed for exporting to both HTML and PDF
    formats. Takes care of things like non-standard fonts in figures, nice
