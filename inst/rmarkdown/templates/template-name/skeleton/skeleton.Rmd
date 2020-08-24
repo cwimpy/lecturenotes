@@ -2,8 +2,8 @@
 title: Course title
 subtitle: Lecture title
 author:
-  name: Your name
-  affiliation: University | Course code
+  name: Cameron Wimpy
+  affiliation: Arkansas State University | POSC 
 # date: "`r format(Sys.time(), '%d %B %Y')`" ## Or "Lecture no."
 output: 
   pdf_document:
@@ -17,7 +17,7 @@ output:
     pandoc_args:
         --template=mytemplate.tex ## For affiliation field. See: https://bit.ly/2T191uZ
   html_document:
-    theme: flatly
+    theme: journal
     highlight: haddock
     # code_folding: show
     toc: yes
@@ -28,9 +28,9 @@ output:
     css: preamble.css ## For multi-col environments
 always_allow_html: true
 urlcolor: blue
-mainfont: cochineal
-sansfont: Fira Sans
-monofont: Fira Code ## Although, see: https://tex.stackexchange.com/q/294362
+mainfont: Minion Pro
+sansfont: Myriad Pro
+monofont: Pragmata Pro
 ---
 
 ```{r setup, include=FALSE}
