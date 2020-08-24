@@ -17,7 +17,7 @@ output:
     pandoc_args:
         --template=mytemplate.tex ## For affiliation field. See: https://bit.ly/2T191uZ
   html_document:
-    theme: journal
+    theme: readable
     highlight: haddock
     # code_folding: show
     toc: yes
